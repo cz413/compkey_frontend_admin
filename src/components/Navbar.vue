@@ -10,9 +10,6 @@
       </router-link>
     </div>
     <div class="head-navi-item">
-      <!--        <router-link to="/">Tools</router-link>-->
-      <!--        <router-link to="/">Pricing</router-link>-->
-      <!--        <router-link to="/">About us</router-link>-->
       <router-link to="/">Sign in</router-link>
     </div>
   </div>
