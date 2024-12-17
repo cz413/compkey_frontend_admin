@@ -18,7 +18,6 @@ function handleSelect(key, keyPath) {
       class="el-menu-vertical"
       default-active="/home"
       text-color="#fff"
-      router
       @select="handleSelect"
   >
     <el-menu-item index="/home">
@@ -29,10 +28,10 @@ function handleSelect(key, keyPath) {
       <el-icon><ChatLineSquare /></el-icon>
       <span>评论管理</span>
     </el-menu-item>
-    <el-menu-item index="/dataManage">
-      <el-icon><DataAnalysis /></el-icon>
-      <span>数据管理</span>
-    </el-menu-item>
+<!--    <el-menu-item index="/dataManage">-->
+<!--      <el-icon><DataAnalysis /></el-icon>-->
+<!--      <span>数据管理</span>-->
+<!--    </el-menu-item>-->
   </el-menu>
 </template>
 
